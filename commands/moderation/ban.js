@@ -1,5 +1,4 @@
 const {MessageEmbed} = require('discord.js');
-const { error } = require('log-symbols');
 const config = require('../../config.json')
 
 module.exports = {

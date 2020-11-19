@@ -12,7 +12,7 @@ module.exports = {
     async run(message, args, bot) {
 
         const wait = new MessageEmbed()
-        .setDescription(`Getting your Neko`)
+        .setDescription(`Getting your Neko ${con.config.emotes.loading}`)
         .setColor(con.config.embedColors.blue)
 
      let data = await random.getNeko()
@@ -21,7 +21,7 @@ module.exports = {
 
      setTimeout(() => {
         m.edit(data);
-     }, 1300);
+     }, 1600);
 
      }
 }
