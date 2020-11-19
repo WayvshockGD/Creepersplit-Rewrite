@@ -1,0 +1,29 @@
+{
+    "config": {
+        "token": "",
+        "prefix": "<<",
+        "adminPrefix": "/",
+        "clientID": "",
+        "dataBaseURl": "",
+        "owners": [""],
+        "emotes": {
+            "check": "",
+            "cross": "",
+            "loading": ""
+        },
+        "embedColors": {
+            "red": "#ff3d33",
+            "green": "#33ff41",
+            "blue": "#2e66ff"
+        },
+        "apiKeys": {
+            "dog": "",
+            "cat": ""
+        },
+        "bot_Lists": {
+            "PBL": "",
+            "BDL": "",
+            "Top.gg": "7"
+        }
+    }
+}
